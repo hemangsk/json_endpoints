@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('coala.ch')
   .directive('prettyprint',["$routeParams", "$rootScope",
     function($routeParams, $rootScope) {
